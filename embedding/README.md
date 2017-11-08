@@ -4,10 +4,9 @@
 
 Model | Characteristics
 --- | --- |
-pos1&2 | threshold = ??
-pos3 | threshold = 0.045
-pos4 | threshold = random(0.04, 0.08)
-pos5 | threshold = random(0.06, 0.09)
+pos1 | threshold = 0.045
+pos2 | threshold = random(0.04, 0.08)
+pos3 | threshold = random(0.06, 0.09)
 
 
 ## NER Tag Embedding
