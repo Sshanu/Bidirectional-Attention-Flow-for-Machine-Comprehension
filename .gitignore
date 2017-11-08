@@ -1,4 +1,4 @@
-checkpoint/
+checkpoints/
 .ipynb_checkpoints/
 *.pyc
 *.json
