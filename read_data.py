@@ -7,8 +7,8 @@ from collections import defaultdict
 
 import numpy as np
 
-from my.tensorflow import grouper
-from my.utils import index
+from helper import grouper
+from utils import index
 
 
 class Data(object):
@@ -117,6 +117,8 @@ class DataSet(object):
         multi_batches = (tuple(zip(grouper(idxs, batch_size, shorten=True, num_groups=num_batches_per_step),
                          data_set.divide(num_batches_per_step))) for idxs, data_set in batches)
         return multi_batches
+    
+
 
     def get_empty(self):
         if isinstance(self.data, dict):
