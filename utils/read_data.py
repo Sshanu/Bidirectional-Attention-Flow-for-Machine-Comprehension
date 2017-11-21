@@ -7,8 +7,8 @@ from collections import defaultdict
 
 import numpy as np
 
-from helper import grouper
-from utils import index
+from utils.helper import grouper
+from utils.utils import index
 
 
 class Data(object):
