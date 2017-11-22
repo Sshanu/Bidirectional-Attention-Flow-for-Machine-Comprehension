@@ -2,4 +2,4 @@ checkpoints/
 .ipynb_checkpoints/
 *.pyc
 *.json
-
+out/
